@@ -1,2 +1,2 @@
-# Polite
-This is the beginning of my boilerplate project for node solutions.
+# node-boilerplate
+Boilerplate para projeto em node. 

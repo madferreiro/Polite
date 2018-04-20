@@ -1,0 +1,62 @@
+{
+    "dev": {
+      "arApi": {
+        "endpoint": "http://api.hml.autorei.net/",
+        "basicAuth": {
+          "username": "front-marketplace-cdp",
+          "password": "password-master"
+        }
+      },
+      "port": 3000,
+      "s3": {
+        "credentials": {
+            "accessKeyId" : "<<access key>>",
+            "secretAccessKey": "<<access key>>"
+        },     
+        "region": "<< region >>",
+        "endpoint": "<< endpoint >>",
+        "signatureVersion": "v4",      
+        "bucketName": "your-project-bucket-name"
+      },
+      "dynamo": {
+        "accessKeyId": "<<access key>>",
+        "secretAccessKey": "<<access key>>",
+        "region": "<< region >>",
+        "endpoint": "<< endpoint >>"
+      },
+      "elasticSearch": {
+        "host": "localhost:9200",
+        "log": "trace"
+      }
+    },
+    "prod": {
+      "some-api": {
+        "endpoint": "<< url >>",
+        "basicAuth": {
+          "username": "<< user >>",
+          "password": "<< password >>"
+        }
+      },
+      "port": 3000,
+      "s3": {
+        "credentials": {
+            "accessKeyId" : "<<access key>>",
+            "secretAccessKey": "<<access key>>"
+        },     
+        "region": "<< region >>",
+        "endpoint": "<< endpoint >>",
+        "signatureVersion": "v4",      
+        "bucketName": "your-project-bucket-name"
+      },
+      "dynamo": {
+        "accessKeyId": "<<access key>>",
+        "secretAccessKey": "<<access key>>",
+        "region": "<< region >>",
+        "endpoint": "<< endpoint >>"
+      },
+      "elasticSearch": {
+        "host": "localhost:9200",
+        "log": "trace"
+      }
+    }
+  }

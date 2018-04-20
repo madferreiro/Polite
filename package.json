@@ -1,0 +1,29 @@
+{
+  "name": "Polite",
+  "version": "1.0.0",
+  "description": "Boilerplate para projeto em node.",
+  "scripts": {
+    "start": "node index",
+    "hml": "config=hml node index.js",
+    "prod": "config=prod node index.js",
+    "setup": "npm i",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.187.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "elasticsearch": "^14.2.1",
+    "express": "^4.13.4",
+    "glob": "^7.1.2",
+    "s3": "^4.4.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}
